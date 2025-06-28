@@ -108,6 +108,13 @@ export default function CardGame() {
           Restart Game
         </button>
       )}
+
+      <Link href="/test" passHref>
+        <button style={{ padding: '8px 16px', cursor: 'pointer' }}>
+          Go to Test Page
+        </button>
+      </Link>
+      
     </main>
   );
 }
