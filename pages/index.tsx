@@ -1,6 +1,7 @@
 'use client'; // required for interactivity
 
 import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
 
 const suits = ['♠️', '♥️', '♦️', '♣️'];
 const ranks = [
